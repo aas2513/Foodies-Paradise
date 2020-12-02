@@ -1,0 +1,254 @@
+body{
+text-align: center;
+font-family: 'Rajdhani', sans-serif;    
+color: #000000;
+}
+.backToTop{
+    font-size: 3rem;
+    position: fixed;
+    bottom:100px;
+    right: 100px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid brown;
+}
+.backToTop a{
+    color:black;
+}
+.backToTop a:hover{
+    color: brown;
+    text-decoration: none;
+}
+/* some utility classes */
+.brown-text{
+    color: brown;
+}
+/* css for header section */
+.nav-links{
+    padding-left: 20px;
+    padding-right: 20px;
+   font-size: 20px;
+    font-family: 'Major Mono Display', monospace;
+    color: brown;
+    position: relative;
+}.nav-links:hover{
+    color: #000000;
+    font-size: 25px;
+}
+/* css for intro section */
+.open{
+    background-color: rgb(224, 238, 250);
+}
+.weAreOpen{
+    padding: 40px;
+}
+.weAreOpen>h1{
+    font-size: 2.5rem;
+}
+.weAreOpen p{
+    font-size: 1rem;
+    line-height: 15px;
+}
+.intro{
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+}
+.intro h1{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* getfeatured */
+.getFeatured{
+    height: 300px;
+    background-color: rgb(224, 238, 250);
+    font-size: 1.3rem;
+}
+.getFeatured h1{
+    padding: 20px;
+    font-size: 2.5rem;
+}
+.getFeatured img{
+   margin-top: 50px;
+}
+/* Menu section */
+#menu{
+    padding-top: 40px;
+    text-align: right;
+}
+.text-grid-menu{
+    padding: 150px;
+}
+a.menu-link:hover{
+    color: brown;
+}
+/* Gallery css */
+#gallery h1{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+}
+#gallery{
+    width: 70%;
+    margin: 10px auto;
+}
+#contact{
+    padding-top: 50px;
+}
+/* footer */
+footer{
+    background-color: rgb(224, 238, 250);
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 30px;
+}
+footer a{
+    color: #000000;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+footer a:hover{
+    color: brown;
+}
+/* CSS FOR MENU PAGE */
+.menu-page{
+    padding: 70px;
+}
+.menu-text{
+    padding: 100px;
+
+}
+/* booking */
+.bookingForm{
+    padding: 30px;
+}
+.formForBooking{
+    padding: 50px;
+    
+}
+.formForBooking label{
+    padding: 5px;
+    display: block;
+    font-size: 1.5rem;
+    color: brown;
+}
+.formForBooking input{ 
+    display: inline-block;
+}
+.book{
+    background-color: brown;
+    color: #ffffff;
+    display: block;
+    margin: 15px auto;
+}
+
+/* for cart system */
+.shop-item{
+    padding: 10px;
+}
+.toCart{
+    background-color: brown;
+    color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.toCart:hover{
+    background-color: #ffffff;
+    color: brown;
+    border: 2px solid brown;
+}
+
+.cart-grid{
+    padding-top: 40px;
+}
+.cart-sys button{
+    display: inline-block;
+ margin: 5px 20px;
+}
+#input1 ,#input2, #input3, #input4, #input5, #input6, #input7, #input8, #input9, #input10, #input11, #input12{
+    display: inline-block;
+    width: 20%;
+}
+/* mdia query for responsiveness */
+@media(max-width:768px){
+    .backToTop{
+        font-size: 2rem;
+        position: fixed;
+        bottom:40px;
+        right: 40px;
+        border-radius: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid brown;
+    }
+    .nav-links{
+        padding-left: 5px;
+        padding-right: 5px;
+       font-size: 15px;
+    }.nav-links:hover{
+        font-size: 15px;
+    }
+    .weAreOpen{
+        padding: 20px;
+    }
+    .weAreOpen>h1{
+        font-size: 1.5rem;
+    }
+    .weAreOpen p{
+        font-size: 1rem;
+    }
+    .intro{
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .intro h1{
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+    footer a{
+    
+        padding: 10px 15px;
+        font-size: 1.5rem;
+    }
+    .getFeatured{
+        height: 500px;
+        background-color: rgb(224, 238, 250);
+        font-size: 15px;
+    }
+    .getFeatured h1{
+        padding: 20px;
+        font-size: 40px;
+    }
+    .getFeatured img{
+       margin-top: 0px;
+    }
+    .text-grid-menu{
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #gallery img{
+        height: 300px;
+    }
+    .menu-page{
+            padding: 20px;
+    }
+    .menu-text{
+            padding: 20px;
+    }
+    .bookingForm{
+        padding: 10px;
+    }
+    .formForBooking{
+        padding: 10px;
+        
+    }
+}
